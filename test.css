@@ -1,0 +1,56 @@
+.container div {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-direction: column;
+  flex: 1;
+
+}
+
+.circle {
+  overflow: hidden;
+}
+.items .item {
+  float: left;
+  width: 40%;
+}
+
+.circle {
+  float: left;
+  width: 40%;
+  padding: 25px;
+}
+
+/*.circle div {*/
+/*  display: flex;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    border-radius: 50%;*/
+/*    flex-wrap: wrap;*/
+/*  justify-content: space-between;*/
+/*  justify-content: space-around;*/
+/*  flex-direction: column;*/
+/*  flex: 1;*/
+/*}*/
+
+.header {
+  text-align: center;
+  font: blue;
+  font: bold;
+
+}
+
+.p {
+  align-content: center;
+  font: blue;
+}
+
+.form {
+  text-align: last;
+}
