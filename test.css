@@ -1,56 +1,54 @@
-.container div {
-  display: flex;
-  border: 1px solid black;
-  align-items: center;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  justify-content: space-between;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-direction: column;
-  flex: 1;
-
-}
-
-.circle {
-  overflow: hidden;
-}
-.items .item {
-  float: left;
-  width: 40%;
-}
-
-.circle {
-  float: left;
-  width: 40%;
-  padding: 25px;
-}
-
-/*.circle div {*/
-/*  display: flex;*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    border-radius: 50%;*/
-/*    flex-wrap: wrap;*/
-/*  justify-content: space-between;*/
-/*  justify-content: space-around;*/
-/*  flex-direction: column;*/
-/*  flex: 1;*/
-/*}*/
-
-.header {
+body {
   text-align: center;
-  font: blue;
+}
+
+h1 {
+  color: red;
+}
+
+p {
   font: bold;
-
 }
 
-.p {
-  align-content: center;
-  font: blue;
+.container {
+  max-width: 600px;
+  border: 1px solid;
+  margin: auto;
+  background: tan;
+  position: absolute;
 }
 
-.form {
-  text-align: last;
+.row {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  align-items: center;
+  font: bold;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid;
+  line-height: 150px;
+  background: white;
+}
+
+.container2 div {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border: solid;
+  background: white;
+  position: absolute;
+}
+
+form input {
+  width: 90%;
+}
+
+
+.reserved {
+  background-color: gray;
 }
