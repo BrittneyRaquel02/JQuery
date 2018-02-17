@@ -7,29 +7,40 @@
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-     <header>TABLE FINDER</header>
-  <p>Pick Your Table Now</p>
-
+  
   <div class = "container">
-  <div class="circle">Table One</div>>
-   <div class="circle">Table Two</div>
-  <div class="circle">Table Three</div>
-  <div class="circle">Table Four</div>
-  <div class="circle">Table Five</div>
-  <div class="circle">Table Six</div>
-   <div class="circle">Table Seven</div>
- <div class="circle">Table Eight</div>
-<div class="circle">Table Nine</div>
+  <h1>TABLE FINDER</h1>
+  <p>Pick Your Table Now</p>
+    <div class="row">
+      <div class="circle available"> Table One</div>
+      <div class="circle">Table Two</div>
+      <div class="circle">Table Three</div>
     </div>
-
-<div>
+    <div class="row">
+      <div class="circle"> Table Four</div>
+      <div class="circle">Table Five</div>
+      <div class="circle">Table Six</div>
+    </div>
+    <div class="row">
+      <div class="circle"> Table Seven</div>
+      <div class="circle">Table Eight</div>
+      <div class="circle">Table Nine</div>
+    </div>
+    </div>
+    
+<div class = "container2" >
   <div>
-  <form class = "hidden">
-  <input type="button" id="login" value="submit" class = "hidden" />
+  <p>New Reservation</p>  
+  <form>
+  <input type = "text" id = "name" value = "Name" class = "hidden" />
+  <input type = "text" id = "number" value = "Phone Number" class = "hidden" />
+  <input type = "text" id = "size" value = "Party Size" class = "hidden" />
+  <input type= "button" id ="login" value="Submit" class = "hidden" />
+  <input type = "button" id = "exit" value = "X" class = "hidden" />
   </form>
   </div>
 </div>    
-
+  
   <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
