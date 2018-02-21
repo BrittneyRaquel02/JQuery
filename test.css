@@ -12,10 +12,12 @@ p {
 
 .container {
   max-width: 600px;
-  border: 1px solid;
+  border: bottom;
+  padding: 100px;
   margin: auto;
   background: tan;
   position: absolute;
+  justify-content: space-around;
 }
 
 .row {
@@ -30,9 +32,10 @@ p {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  border: 1px solid;
+  border: 10px, solid;
   line-height: 150px;
   background: white;
+  justify-content: space-around;
 }
 
 .container2 div {
@@ -51,4 +54,16 @@ form input {
 
 .reserved {
   background-color: gray;
+  pointer-events: none;
+}
+
+.tool-tip {
+  font: 10px;
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+}
+
+.reserved:hover .tool-tip {
+  display: block;
 }
