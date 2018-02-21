@@ -8,8 +8,7 @@ $(".circle").on("click", function(){
 
 $("#login").on("click", function(){
 currentTable.remove('available').addClass('reserved');
-$('.container2').hide();
-$(currentTable).prop( "disabled", true );
+$('.container2').fadeOut();
 });
 
 
@@ -17,22 +16,22 @@ $("#exit").on("click", function(){
  $('.container2').hide();
 });
 
-//use event.target to get everyone of the tables without multiple event listeners
-//need to disable the table and get hover to work//
+//everything above this line works
 
-// var tables = [];
-// $('button').on('click', function(){
-//   var name = $('#one');
-//   var  number = $('#two');
-//   var size = $('#three');
-//   var reserved = {
-//     name: input1.value(),
-//     number: input2.value(),
-//     size: input3.value(),
-//   };
-//   tables.push(reserved);
-//   console.log(tables);
+// $(`reserved`).on('click', function(){
+//   var name = $(`$name`).val();
+//   var seats = $(`#seats`).val();
+//   modal.addCladd(`hidden`);
+//   currentTable.att('class', 'reserved');
+
+
+// var toolTip = <div class ="tool-tip hidden">
+// <p> Name: $(name)</p>
+// <p> Seats: $(seats)</p>
+// </div>;
+// currentTable.append(toolTip);
 // });
 
-// $(reserved).hover(currentTable);
-
+// $(`.row`).on('click', 'tool-tip', function(){
+//   $(this).parent().attr('class', 'available');
+// });
